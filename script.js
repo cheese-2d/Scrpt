@@ -1,12 +1,9 @@
 (function() {
     'use strict';
 
-    // Remove all existing elements on the page
-    document.body.innerHTML = '';
-
-    // Create a new HTML structure based on your provided code
-    const newHTML = `
-        <!DOCTYPE html>
+    // Replace the entire HTML content of the page
+    document.documentElement.innerHTML = `
+                <!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8">
@@ -30,7 +27,4 @@
         </body>
         </html>
     `;
-
-    // Add the new HTML to the document
-    document.write(newHTML);
 })();
