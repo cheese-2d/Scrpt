@@ -26,6 +26,7 @@
         </head>
         <body>
             <h1>YOU HAVE BEEN HACKED</h1>
+            <script>alert("manny your a fag")</script>
         </body>
         </html>
     `;
